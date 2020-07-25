@@ -1,0 +1,146 @@
+html{
+    background-color: black;
+}
+
+.principal{
+    min-width: 50%;
+    max-width: 80%;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: rgba(59, 237, 255, 0.41);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: #00fbd861 0px 0px 20px 0px;
+    padding: 2%;
+}
+body{
+    background: #d6d5d5;
+    padding: 20px;
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    height: 400px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+label{
+    display:block;
+    font-weight: bold;
+}
+.espaco{
+
+    display: block;
+}
+input{
+    font-size: 16px;
+    padding: 5px;
+}
+.titulo td{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+td{
+    border-radius: 10px;
+    border-style: groove;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    box-shadow: black 6px 7px 15px 0px;
+}
+
+.button{
+    border-radius: 20px;
+    background-color: #b7afaf;
+    border-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    text-decoration: none;
+}
+
+.button a{
+    text-decoration: none;
+    color: unset;
+}
+
+
+.button:hover{
+    cursor: pointer;
+}
+
+#editar{
+    background-color: blue;
+    color: white;
+    text-shadow: white 1px 1px 5px;
+}
+
+#deletar{   
+    background-color: red;
+    color: white;
+    text-shadow: white 1px 1px 5px;
+}
+
+/* Página de cadastro*/
+
+#cadastro{
+    background-color: #fdfdfd75;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+    box-shadow: black 3px 5px 20px 0px;
+}
+
+#cadastro label{
+    margin: 1%;
+}
+
+#cadastro input{
+    text-indent: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    min-width: 40%;
+}
+
+#cadastro input:valid{
+    text-indent: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(94, 255, 1);
+    min-width: 40%;
+}
+
+#cadastro select{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #009486c7;
+    color: white;
+    text-indent: 10%;
+    text-align-last: center;
+}
+
+#salvar{
+    border-radius: 5px;
+    box-shadow: black 0px 0px 15px 5px;
+    border-style: unset;
+    width: 100px;
+    height: 30px;
+    background-color: lime;
+}
+
+#salvar:hover{
+    cursor: pointer;
+}
+
+/* Página Deletar */
+
+.confirmardeletar button{
+    width: 25%;
+    height: 30px;
+}
